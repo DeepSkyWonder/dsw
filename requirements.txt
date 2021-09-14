@@ -1,3 +1,4 @@
 matplotlib==3.2.2
 ipython==5.5.0
 rebound==3.17.4
+numpy==1.19.5
