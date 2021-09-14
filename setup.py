@@ -8,6 +8,7 @@ requirements = [
     "matplotlib",
     "ipython",
     "rebound",
+    "numpy",
 ]
 
 
