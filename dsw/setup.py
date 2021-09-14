@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 
 requirements = [
-    "ipython",
+    "matplotlib",
 ]
 
 
