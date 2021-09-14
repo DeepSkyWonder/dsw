@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from IPython.display import display, clear_output
 
 def orbit_plot(objects, iter, tail_length):
 
