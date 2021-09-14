@@ -1,6 +1,6 @@
 # dsw
 
-A collection of tools to used by Deep Sky Wonder.
+A collection of tools used by Deep Sky Wonder.
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
