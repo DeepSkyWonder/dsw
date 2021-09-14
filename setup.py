@@ -13,7 +13,7 @@ requirements = [
 
 setuptools.setup(
     name="dsw", 
-    version="0.1.02",
+    version="0.1.03",
     author="Cameron McEwing",
     author_email="tech.mechanic@gmail.com",
     description="Tools used by Deep Sky Wonder",
