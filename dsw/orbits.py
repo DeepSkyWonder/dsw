@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 from IPython.display import display, clear_output
 from rebound.plotting import fading_line
+import numpy as np
 
 def orbit_plot(objects, iter, tail_length):
 
