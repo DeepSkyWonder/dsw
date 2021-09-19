@@ -7,9 +7,9 @@ with open("README.md", "r") as fh:
 requirements = [
     "matplotlib",
     "ipython",
-    "rebound",
+    "rebound>=3.17.4",
     "numpy",
-    "astropy",
+    "astropy>=4.3.1",
 ]
 
 
