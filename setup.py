@@ -30,13 +30,12 @@ setuptools.setup(
         "": ["*.txt"],
         "cepheid": ["BVI_templates/*.dat"],
     }
-    
+  
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.7',
-
     
 )
