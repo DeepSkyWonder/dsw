@@ -2,4 +2,4 @@ matplotlib==3.2.2
 ipython==5.5.0
 rebound==3.17.4
 numpy==1.19.5
-astropy==4.1
+astropy==4.3.1
