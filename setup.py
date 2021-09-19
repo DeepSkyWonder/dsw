@@ -29,7 +29,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.7',
     
     packages=find_packages("dsw"),
     package_dir={"": "dsw"},
