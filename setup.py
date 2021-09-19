@@ -26,10 +26,7 @@ setuptools.setup(
     
     setuptools.packages=find_packages("dsw"),
     package_dir={"": "dsw"},
-    package_data={
-        "": ["*.txt"],
-        "cepheid": ["BVI_templates/*.dat"],
-    }
+    package_data={"": ["*.txt"], "cepheid": ["BVI_templates/*.dat"],}
     
     classifiers=[
         "Programming Language :: Python :: 3",
