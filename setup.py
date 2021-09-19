@@ -1,4 +1,4 @@
-import setuptools
+from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -13,7 +13,7 @@ requirements = [
 ]
 
 
-setuptools.setup(
+setup(
     name="dsw", 
     version="0.1.04",
     author="Cameron McEwing",
@@ -24,9 +24,12 @@ setuptools.setup(
     url="https://github.com/DeepSkyWonder/dsw",
     install_requires=requirements,
     
-    setuptools.packages=find_packages("dsw"),
+    packages=find_packages("dsw"),
     package_dir={"": "dsw"},
-    package_data={"": ["*.txt"], "cepheid": ["BVI_templates/*.dat"],}
+    package_data={
+        "": ["*.txt"],
+        "cepheid": ["BVI_templates/*.dat"],
+    },
     
     classifiers=[
         "Programming Language :: Python :: 3",
