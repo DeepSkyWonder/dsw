@@ -15,7 +15,7 @@ requirements = [
 
 setuptools.setup(
     name="dsw", 
-    version="0.1.05",
+    version="0.1.04",
     author="Cameron McEwing",
     author_email="tech.mechanic@gmail.com",
     description="Tools used by Deep Sky Wonder",
@@ -30,12 +30,11 @@ setuptools.setup(
         "": ["*.txt"],
         "cepheid": ["BVI_templates/*.dat"],
     }
-  
+    
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.7',
-    
+    python_requires='>=3.6',
 )
