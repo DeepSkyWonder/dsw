@@ -24,7 +24,7 @@ setuptools.setup(
     url="https://github.com/DeepSkyWonder/dsw",
     install_requires=requirements,
     
-    packages=find_packages("dsw"),
+    setuptools.packages=find_packages("dsw"),
     package_dir={"": "dsw"},
     package_data={
         "": ["*.txt"],
