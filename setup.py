@@ -1,4 +1,4 @@
-import setuptools
+from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -13,7 +13,7 @@ requirements = [
 ]
 
 
-setuptools.setup(
+setup(
     name="dsw", 
     version="0.1.05",
     author="Cameron McEwing",
