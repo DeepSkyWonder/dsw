@@ -9,7 +9,7 @@ requirements = [
     "ipython",
     "rebound",
     "numpy",
-    "astorpy",
+    "astropy",
 ]
 
 
