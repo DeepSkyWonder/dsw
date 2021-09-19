@@ -12,11 +12,11 @@ BASEPATH = os.path.dirname(os.path.abspath(__file__))+"/"
 
 def load_longperiod_datatable():
     """ Model for long-period cepheids (P > 10 days). """
-    return Table.read(BASEPATH+"BVI_templates/long_struc.fits") 
+    return Table.read(BASEPATH+"data/long_struc.fits") 
        
 def load_shortperiod_datatable():
     """ Model for short-period cepheids (P < 10 days). """
-    return Table.read(BASEPATH+"BVI_templates/short_struc.fits")  
+    return Table.read(BASEPATH+"data/short_struc.fits")  
       
 longperiod_datatable = load_longperiod_datatable()
 shortperiod_datatable = load_shortperiod_datatable()
