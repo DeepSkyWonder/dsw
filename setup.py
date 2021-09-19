@@ -26,7 +26,7 @@ setup(
     
     packages=find_packages(),
     include_package_data=True,
-    package_data={'': ['dsw/cepheid/data/*.dat']},
+    package_data={'': ['dsw/cepheid/data/*.fits']},
     exclude_package_data={"": ["README.md"]},
     
     classifiers=[
