@@ -15,7 +15,7 @@ requirements = [
 
 setup(
     name="dsw", 
-    version="0.1.07",
+    version="0.1.08",
     author="Cameron McEwing",
     author_email="tech.mechanic@gmail.com",
     description="Tools used by Deep Sky Wonder",
@@ -25,11 +25,8 @@ setup(
     install_requires=requirements,
     
     packages=find_packages(),
-    # package_dir={"": "dsw"},
-    package_data={
-        "": ["*.txt"],
-        "cepheid": ["BVI_templates/*.dat"],
-    },
+    include_package_data=True,
+    exclude_package_data={"": ["README.md"]},
     
     classifiers=[
         "Programming Language :: Python :: 3",
