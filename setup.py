@@ -15,7 +15,7 @@ requirements = [
 
 setup(
     name="dsw", 
-    version="0.1.09",
+    version="0.1.10",
     author="Cameron McEwing",
     author_email="tech.mechanic@gmail.com",
     description="Tools used by Deep Sky Wonder",
