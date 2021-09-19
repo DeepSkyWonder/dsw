@@ -16,5 +16,7 @@ This work is licensed under a
 Requires:
 
 > rebound >= 3.17.4
+
 > astropy >= 4.3.1
+
 > python >= 3.7
