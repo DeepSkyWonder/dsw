@@ -30,4 +30,12 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    
+    packages=find_packages("dsw"),
+    package_dir={"": "dsw"},
+    package_data={
+        "": ["*.txt"],
+        "cepheid": ["BVI_templates/*.dat"],
+    }
+    
 )
